@@ -1,16 +1,16 @@
 {
     "scripts": {
-        "frontend:install": "ls && cd ./udagram-main/udagram/udagram-frontend && npm install -f",
-        "frontend:start": "cd ./udagram-main/udagram/udagram-frontend && npm run start",
-        "frontend:build": "cd ./udagram-main/udagram/udagram-frontend && npm run build",
-        "frontend:test": "cd ./udagram-main/udagram/udagram-frontend && npm run test",
-        "frontend:e2e": "cd ./udagram-main/udagram/udagram-frontend && npm run e2e",
-        "frontend:lint": "cd ./udagram-main/udagram/udagram-frontend && npm run lint",
-        "frontend:deploy": "cd ./udagram-main/udagram/udagram-frontend && npm run deploy",
-        "api:install": "cd ./udagram-main/udagram/udagram-api && npm install .",
-        "api:build": "cd ./udagram-main/udagram/udagram-api && ls && npm run build",
-        "api:start": "cd ./udagram-main/udagram/udagram-api && npm run dev",
-        "api:deploy": "cd ./udagram-main/udagram/udagram-api && npm run deploy",
-        "deploy": "npm run api:deploy && npm run frontend:deploy"
+        "front-end:install": "ls && cd ./udagram-main/udagram/udagram-frontend && npm install -f",
+        "front-end:start": "cd ./udagram-main/udagram/udagram-frontend && npm run start",
+        "front-end:build": "cd ./udagram-main/udagram/udagram-frontend && npm run build",
+        "front-end:test": "cd ./udagram-main/udagram/udagram-frontend && npm run test",
+        "front-end:e2e": "cd ./udagram-main/udagram/udagram-frontend && npm run e2e",
+        "front-end:lint": "cd ./udagram-main/udagram/udagram-frontend && npm run lint",
+        "front-end:deploy": "cd ./udagram-main/udagram/udagram-frontend && npm run deploy",
+        "back-end:install": "cd ./udagram-main/udagram/udagram-api && npm install .",
+        "back-end:build": "cd ./udagram-main/udagram/udagram-api && ls && npm run build",
+        "back-end:start": "cd ./udagram-main/udagram/udagram-api && npm run dev",
+        "back-end:deploy": "cd ./udagram-main/udagram/udagram-api && npm run deploy",
+        "deploy": "npm run back-end:deploy && npm run front-end:deploy"
     }
 }
