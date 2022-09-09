@@ -31,8 +31,7 @@ jobs:
           command: npm run api:deploy
       - run:
           name: Deploy Front End production on server
-          command: npm run frontend:deploy
-          
+          command: npm run frontend:deploy          
 workflows:
   build:
     jobs:
