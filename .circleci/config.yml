@@ -6,12 +6,12 @@ orbs:
   aws-cli: circleci/aws-cli@3.1.1
   # different jobs are calles later in the workflows sections
 workflows:
+          filters:
+            branches:
+              only: 
+                - master 
 jobs:
     build:
-      filters:
-        branches:
-          only: 
-            - master 
       docker:
         - image: "cimg/base:stable"
       steps:
