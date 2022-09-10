@@ -1,11 +1,11 @@
 branch-defaults:
   default:
-    environment: udacity-full
+    environment: udacity-full2
     group_suffix: null
 deploy:
   artifact: ./www/Archive.zip
 global:
-  application_name: udacity-full
+  application_name: udacity-full2
   branch: null
   default_ec2_keyname: null
   default_platform: Node.js 16
