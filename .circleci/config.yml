@@ -6,35 +6,34 @@ orbs:
   aws-cli: circleci/aws-cli@3.1.1
   # different jobs are calles later in the workflows sections
 workflows:
+ jobs:
+  build:
+    docker:
+      - image: "cimg/base:stable"
+    steps:
+      - node/install
+      - checkout
+      - aws-cli/setup
+      - eb/setup
+      - run:
+          name: Front-End Install
+          command: npm run front-end:install
+      - run:
+          name: Back-End Install
+          command: npm run back-end:install
+      - run:
+          name: Front-End Build
+          command: npm run front-end:build
+      - run:
+          name: Back-End Build
+          command: npm run back-end:build
+      - run:
+          name: Deploy Back-End
+          command: npm run back-end:deploy
+      - run:
+          name: Deploy Front-End
+          command: npm run front-end:deploy
           filters:
             branches:
               only: 
-                - master 
-    jobs:
-      build:
-        docker:
-          - image: "cimg/base:stable"
-        steps:
-          - node/install
-          - checkout
-          - aws-cli/setup
-          - eb/setup
-          - run:
-              name: Front-End Install
-              command: npm run front-end:install
-          - run:
-              name: Back-End Install
-              command: npm run back-end:install
-          - run:
-              name: Front-End Build
-              command: npm run front-end:build
-          - run:
-              name: Back-End Build
-              command: npm run back-end:build
-          - run:
-              name: Deploy Back-End
-              command: npm run back-end:deploy
-          - run:
-              name: Deploy Front-End
-              command: npm run front-end:deploy
-           
+                - master           
