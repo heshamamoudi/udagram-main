@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/heshamamoudi/udagram-main/tree/master.svg?style=svg)](https://circleci.com/gh/heshamamoudi/udagram-main/?branch=master)
+
 # (Udagram) Hosting a Full-Stack Application
 ---
 
