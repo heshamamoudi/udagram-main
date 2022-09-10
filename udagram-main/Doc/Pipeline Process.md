@@ -12,4 +12,5 @@ PipeLine gets setup and connects to git repository via circleci
 
 ## Pipeline diagram
 
-![Pipeline diagram](./images/PipeLine.png.png)
+![PipeLine](https://user-images.githubusercontent.com/67551590/189461060-8aa0d93c-2395-4459-a7a6-64a1fcd95b88.png)
+

@@ -16,33 +16,33 @@ link: http://udacity-project-hesham.s3-website-us-east-1.amazonaws.com/
 
 ## Configuration Screenshots
 ### Elastic Beanstalk Environment
-![PipeLine configurations](./Doc/images/Pipeline_workflow.png)
+![EB](https://user-images.githubusercontent.com/67551590/189461202-1109a78e-aec9-4093-aed5-fe623e52a735.png)
 
 
 ### FrontEnd S3 Bucket
-![S3 Bucket](./Doc/images/S3.png)
+![S3](https://user-images.githubusercontent.com/67551590/189461126-22deff9b-bbe9-45f7-a33f-73b0f4a4ac22.png)
+
 
 
 ### RDS database
-
+![rds](https://user-images.githubusercontent.com/67551590/189461118-8daaa43f-94cf-4c7e-80b8-590a090f1b19.png)
 
 ### CircleCI Pipeline
-![RDS](./Doc/images/rds.png)
+![Pipeline_workflow](https://user-images.githubusercontent.com/67551590/189461143-a861a348-36ca-4789-a335-5d4689c3f0a1.png)
 
 
 Environment Variables
-![Enviroment Variables](./Doc/images/enviroment_variables.png)
+![enviroment_variables](https://user-images.githubusercontent.com/67551590/189461109-49d53270-7538-457f-ba0c-c126c79882bf.png)
+
 
 
 CircleCI Pipeline Architecture
-![PipeLine](./Doc/images/PipeLine.png)
+![PipeLine](https://user-images.githubusercontent.com/67551590/189461060-8aa0d93c-2395-4459-a7a6-64a1fcd95b88.png)
 
 ### AWS Architecture
-![AWS](./Doc/images/aws.png)
+![aws](https://user-images.githubusercontent.com/67551590/189461042-20acd59e-c132-4986-97bb-89166340e888.png)
 
 ### Dependencies
-
-```
 - Node 16.14.2 
 
 - npm 8.19.1

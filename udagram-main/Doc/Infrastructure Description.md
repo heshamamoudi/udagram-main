@@ -17,4 +17,4 @@
 
 ## Infrastructure Diagram
 
-![AWS Architecture](./images/aws.png) 
+![aws](https://user-images.githubusercontent.com/67551590/189461042-20acd59e-c132-4986-97bb-89166340e888.png)
