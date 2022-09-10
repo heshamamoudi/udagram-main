@@ -3,31 +3,35 @@
 
 
 
-This application is provided from Udacity to be hosted into AWS with Pipeline using CircleCI.
-The Project is for the Advanced Full-Stack Web Development Nanodegree Program - Deploying & Hosting a Full-Stack Application.
+Pre made Application by Udacity
+required deployment:
+configured:
+- Elasticbean
+- S3 deployment
+- Circleci
+- Scripts for deployment.
 
-The project is available at
-
+link: http://udacity-project-hesham.s3-website-us-east-1.amazonaws.com/
 
 
 ## Configuration Screenshots
 ### Elastic Beanstalk Environment
-
+![PipeLine configurations](./Doc/images/Pipeline_workflow.png)
 
 
 ### FrontEnd S3 Bucket
-
+![S3 Bucket](./Doc/images/S3.png)
 
 
 ### RDS database
 
 
 ### CircleCI Pipeline
-
+![RDS](./Doc/images/rds.png)
 
 
 Environment Variables
-
+![Enviroment Variables](./Doc/images/enviroment_variables.png)
 
 
 CircleCI Pipeline Architecture
