@@ -13,7 +13,8 @@ configured:
 - Circleci
 - Scripts for deployment.
 
-link: http://udacity-project-hesham.s3-website-us-east-1.amazonaws.com/
+link back-end: http://udagram-api-dev.eba-hh3hyawe.us-east-1.elasticbeanstalk.com/api/v0/feed
+link front-end: http://hesham-bucket.s3-website-us-east-1.amazonaws.com/
 
 
 ## Configuration Screenshots
